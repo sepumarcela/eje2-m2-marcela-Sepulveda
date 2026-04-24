@@ -131,10 +131,12 @@
   font-size: 13px;
   color: #aaa;
 }
+
 .footer p:hover {
   color: #f5a623;
   cursor: pointer;
 }
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .header {
@@ -163,4 +165,13 @@
 
 .hero button:hover {
   transform: scale(1.05);
+}
+
+.footers p {
+  transition: 0.3s;
+}
+
+.footers p:hover {
+  color: #f5a623;
+  cursor: pointer;
 }
