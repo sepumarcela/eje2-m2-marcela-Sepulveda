@@ -156,3 +156,11 @@
     font-size: 32px;
   }
 }
+
+.hero button {
+  transition: all 0.3s ease;
+}
+
+.hero button:hover {
+  transform: scale(1.05);
+}
