@@ -8,16 +8,14 @@ const Contacto = () => {
     };
 
     localStorage.setItem("formData", JSON.stringify(data));
-    console.log(data);
+    alert("Formulario enviado");
   };
 
   return (
     <form onSubmit={handleSubmit} style={{ padding: "50px" }}>
-      <input name="nombre" placeholder="Nombre" />
-      <input name="email" placeholder="Email" />
+      <input name="nombre" placeholder="Nombre" required />
+      <input name="email" placeholder="Email" required />
       <button>Enviar</button>
     </form>
   );
 };
-
-export default Contacto;
